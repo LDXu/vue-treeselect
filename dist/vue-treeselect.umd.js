@@ -3204,7 +3204,7 @@ function stringifyValue(value) {
   }
 });
 // CONCATENATED MODULE: ./src/components/HiddenFields.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_HiddenFieldsvue_type_script_lang_js_ = (HiddenFieldsvue_type_script_lang_js_); 
+ /* harmony default export */ var components_HiddenFieldsvue_type_script_lang_js_ = (HiddenFieldsvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
 
@@ -3321,7 +3321,7 @@ var component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -3587,7 +3587,7 @@ var keysThatRequireMenuBeingOpen = [KEY_CODES.ENTER, KEY_CODES.END, KEY_CODES.HO
           "input": this.onInput,
           "blur": this.onBlur,
           "keydown": this.onKeyDown,
-          "mousedown": this.onMouseDown
+          "touchstart": this.onMouseDown
         }
       });
     },
@@ -3611,7 +3611,7 @@ var keysThatRequireMenuBeingOpen = [KEY_CODES.ENTER, KEY_CODES.END, KEY_CODES.HO
   }
 });
 // CONCATENATED MODULE: ./src/components/Input.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Inputvue_type_script_lang_js_ = (Inputvue_type_script_lang_js_); 
+ /* harmony default export */ var components_Inputvue_type_script_lang_js_ = (Inputvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/Input.vue
 var Input_render, Input_staticRenderFns
 
@@ -3628,7 +3628,7 @@ var Input_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -3653,7 +3653,7 @@ Input_component.options.__file = "src/components/Input.vue"
   }
 });
 // CONCATENATED MODULE: ./src/components/Placeholder.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Placeholdervue_type_script_lang_js_ = (Placeholdervue_type_script_lang_js_); 
+ /* harmony default export */ var components_Placeholdervue_type_script_lang_js_ = (Placeholdervue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/Placeholder.vue
 var Placeholder_render, Placeholder_staticRenderFns
 
@@ -3670,7 +3670,7 @@ var Placeholder_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -3706,7 +3706,7 @@ Placeholder_component.options.__file = "src/components/Placeholder.vue"
   }
 });
 // CONCATENATED MODULE: ./src/components/SingleValue.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_SingleValuevue_type_script_lang_js_ = (SingleValuevue_type_script_lang_js_); 
+ /* harmony default export */ var components_SingleValuevue_type_script_lang_js_ = (SingleValuevue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/SingleValue.vue
 var SingleValue_render, SingleValue_staticRenderFns
 
@@ -3723,7 +3723,7 @@ var SingleValue_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -3764,7 +3764,7 @@ Deletevue_type_template_id_364b6320_render._withStripped = true
   name: 'vue-treeselect--x'
 });
 // CONCATENATED MODULE: ./src/components/icons/Delete.vue?vue&type=script&lang=js&
- /* harmony default export */ var icons_Deletevue_type_script_lang_js_ = (Deletevue_type_script_lang_js_); 
+ /* harmony default export */ var icons_Deletevue_type_script_lang_js_ = (Deletevue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/icons/Delete.vue
 
 
@@ -3781,7 +3781,7 @@ var Delete_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -3825,7 +3825,7 @@ Delete_component.options.__file = "src/components/icons/Delete.vue"
     }, [h("div", {
       "class": itemClass,
       on: {
-        "mousedown": this.handleMouseDown
+        "touchstart": this.handleMouseDown
       }
     }, [h("span", {
       "class": "vue-treeselect__multi-value-label"
@@ -3835,7 +3835,7 @@ Delete_component.options.__file = "src/components/icons/Delete.vue"
   }
 });
 // CONCATENATED MODULE: ./src/components/MultiValueItem.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_MultiValueItemvue_type_script_lang_js_ = (MultiValueItemvue_type_script_lang_js_); 
+ /* harmony default export */ var components_MultiValueItemvue_type_script_lang_js_ = (MultiValueItemvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/MultiValueItem.vue
 var MultiValueItem_render, MultiValueItem_staticRenderFns
 
@@ -3852,7 +3852,7 @@ var MultiValueItem_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -3914,7 +3914,7 @@ MultiValueItem_component.options.__file = "src/components/MultiValueItem.vue"
   }
 });
 // CONCATENATED MODULE: ./src/components/MultiValue.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_MultiValuevue_type_script_lang_js_ = (MultiValuevue_type_script_lang_js_); 
+ /* harmony default export */ var components_MultiValuevue_type_script_lang_js_ = (MultiValuevue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/MultiValue.vue
 var MultiValue_render, MultiValue_staticRenderFns
 
@@ -3931,7 +3931,7 @@ var MultiValue_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -3972,7 +3972,7 @@ Arrowvue_type_template_id_11186cd4_render._withStripped = true
   name: 'vue-treeselect--arrow'
 });
 // CONCATENATED MODULE: ./src/components/icons/Arrow.vue?vue&type=script&lang=js&
- /* harmony default export */ var icons_Arrowvue_type_script_lang_js_ = (Arrowvue_type_script_lang_js_); 
+ /* harmony default export */ var icons_Arrowvue_type_script_lang_js_ = (Arrowvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/icons/Arrow.vue
 
 
@@ -3989,7 +3989,7 @@ var Arrow_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -4034,7 +4034,7 @@ Arrow_component.options.__file = "src/components/icons/Arrow.vue"
           title: title
         },
         on: {
-          "mousedown": this.handleMouseDownOnX
+          "touchstart": this.handleMouseDownOnX
         }
       }, [h(Delete, {
         "class": "vue-treeselect__x"
@@ -4051,7 +4051,7 @@ Arrow_component.options.__file = "src/components/icons/Arrow.vue"
       return h("div", {
         "class": "vue-treeselect__control-arrow-container",
         on: {
-          "mousedown": this.handleMouseDownOnArrow
+          "touchstart": this.handleMouseDownOnArrow
         }
       }, [h(Arrow, {
         "class": arrowClass
@@ -4096,7 +4096,7 @@ Arrow_component.options.__file = "src/components/icons/Arrow.vue"
     return h("div", {
       "class": "vue-treeselect__control",
       on: {
-        "mousedown": instance.handleMouseDown
+        "touchstart": instance.handleMouseDown
       }
     }, [h(ValueContainer, {
       ref: "value-container"
@@ -4104,7 +4104,7 @@ Arrow_component.options.__file = "src/components/icons/Arrow.vue"
   }
 });
 // CONCATENATED MODULE: ./src/components/Control.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Controlvue_type_script_lang_js_ = (Controlvue_type_script_lang_js_); 
+ /* harmony default export */ var components_Controlvue_type_script_lang_js_ = (Controlvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/Control.vue
 var Control_render, Control_staticRenderFns
 
@@ -4121,7 +4121,7 @@ var Control_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -4158,7 +4158,7 @@ Control_component.options.__file = "src/components/Control.vue"
   }
 });
 // CONCATENATED MODULE: ./src/components/Tip.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Tipvue_type_script_lang_js_ = (Tipvue_type_script_lang_js_); 
+ /* harmony default export */ var components_Tipvue_type_script_lang_js_ = (Tipvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/Tip.vue
 var Tip_render, Tip_staticRenderFns
 
@@ -4175,7 +4175,7 @@ var Tip_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -4260,7 +4260,7 @@ var Option = {
         return h("div", {
           "class": "vue-treeselect__option-arrow-container",
           on: {
-            "mousedown": this.handleMouseDownOnArrow
+            "touchstart": this.handleMouseDownOnArrow
           }
         }, [h("transition", transitionProps, [h(Arrow, {
           "class": arrowClass
@@ -4281,7 +4281,7 @@ var Option = {
       return h("div", {
         "class": "vue-treeselect__label-container",
         on: {
-          "mousedown": this.handleMouseDownOnLabelContainer
+          "touchstart": this.handleMouseDownOnLabelContainer
         }
       }, [children]);
     },
@@ -4392,7 +4392,7 @@ var Option = {
           title: instance.retryTitle
         },
         on: {
-          "mousedown": this.handleMouseDownOnRetry
+          "touchstart": this.handleMouseDownOnRetry
         }
       }, [instance.retryText])]);
     },
@@ -4444,7 +4444,7 @@ var Option = {
 };
 /* harmony default export */ var Optionvue_type_script_lang_js_ = (Option);
 // CONCATENATED MODULE: ./src/components/Option.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Optionvue_type_script_lang_js_ = (Optionvue_type_script_lang_js_); 
+ /* harmony default export */ var components_Optionvue_type_script_lang_js_ = (Optionvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/Option.vue
 var Option_render, Option_staticRenderFns
 
@@ -4461,7 +4461,7 @@ var Option_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -4525,7 +4525,7 @@ var directionMap = {
         ref: "menu",
         "class": "vue-treeselect__menu",
         on: {
-          "mousedown": instance.handleMouseDown
+          "touchstart": instance.handleMouseDown
         },
         style: this.menuStyle
       }, [this.renderBeforeList(), instance.async ? this.renderAsyncSearchMenuInner() : instance.localSearch.active ? this.renderLocalSearchMenuInner() : this.renderNormalMenuInner(), this.renderAfterList()]);
@@ -4752,7 +4752,7 @@ var directionMap = {
   }
 });
 // CONCATENATED MODULE: ./src/components/Menu.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Menuvue_type_script_lang_js_ = (Menuvue_type_script_lang_js_); 
+ /* harmony default export */ var components_Menuvue_type_script_lang_js_ = (Menuvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/Menu.vue
 var Menu_render, Menu_staticRenderFns
 
@@ -4769,7 +4769,7 @@ var Menu_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -4938,7 +4938,7 @@ var placeholder;
   }
 });
 // CONCATENATED MODULE: ./src/components/MenuPortal.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_MenuPortalvue_type_script_lang_js_ = (MenuPortalvue_type_script_lang_js_); 
+ /* harmony default export */ var components_MenuPortalvue_type_script_lang_js_ = (MenuPortalvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/MenuPortal.vue
 var MenuPortal_render, MenuPortal_staticRenderFns
 
@@ -4955,7 +4955,7 @@ var MenuPortal_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */
@@ -5004,7 +5004,7 @@ MenuPortal_component.options.__file = "src/components/MenuPortal.vue"
   }
 });
 // CONCATENATED MODULE: ./src/components/Treeselect.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_Treeselectvue_type_script_lang_js_ = (Treeselectvue_type_script_lang_js_); 
+ /* harmony default export */ var components_Treeselectvue_type_script_lang_js_ = (Treeselectvue_type_script_lang_js_);
 // CONCATENATED MODULE: ./src/components/Treeselect.vue
 var Treeselect_render, Treeselect_staticRenderFns
 
@@ -5021,7 +5021,7 @@ var Treeselect_component = normalizeComponent(
   null,
   null,
   null
-  
+
 )
 
 /* hot reload */

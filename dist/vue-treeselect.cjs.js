@@ -2454,7 +2454,7 @@ var keysThatRequireMenuBeingOpen = [KEY_CODES.ENTER, KEY_CODES.END, KEY_CODES.HO
           "input": this.onInput,
           "blur": this.onBlur,
           "keydown": this.onKeyDown,
-          "mousedown": this.onMouseDown
+          "touchstart": this.onMouseDown
         }
       });
     },
@@ -2692,7 +2692,7 @@ Delete_component.options.__file = "src/components/icons/Delete.vue"
     }, [h("div", {
       "class": itemClass,
       on: {
-        "mousedown": this.handleMouseDown
+        "touchstart": this.handleMouseDown
       }
     }, [h("span", {
       "class": "vue-treeselect__multi-value-label"
@@ -2901,7 +2901,7 @@ Arrow_component.options.__file = "src/components/icons/Arrow.vue"
           title: title
         },
         on: {
-          "mousedown": this.handleMouseDownOnX
+          "touchstart": this.handleMouseDownOnX
         }
       }, [h(Delete, {
         "class": "vue-treeselect__x"
@@ -2918,7 +2918,7 @@ Arrow_component.options.__file = "src/components/icons/Arrow.vue"
       return h("div", {
         "class": "vue-treeselect__control-arrow-container",
         on: {
-          "mousedown": this.handleMouseDownOnArrow
+          "touchstart": this.handleMouseDownOnArrow
         }
       }, [h(Arrow, {
         "class": arrowClass
@@ -2963,7 +2963,7 @@ Arrow_component.options.__file = "src/components/icons/Arrow.vue"
     return h("div", {
       "class": "vue-treeselect__control",
       on: {
-        "mousedown": instance.handleMouseDown
+        "touchstart": instance.handleMouseDown
       }
     }, [h(ValueContainer, {
       ref: "value-container"
@@ -3127,7 +3127,7 @@ var Option = {
         return h("div", {
           "class": "vue-treeselect__option-arrow-container",
           on: {
-            "mousedown": this.handleMouseDownOnArrow
+            "touchstart": this.handleMouseDownOnArrow
           }
         }, [h("transition", transitionProps, [h(Arrow, {
           "class": arrowClass
@@ -3148,7 +3148,7 @@ var Option = {
       return h("div", {
         "class": "vue-treeselect__label-container",
         on: {
-          "mousedown": this.handleMouseDownOnLabelContainer
+          "touchstart": this.handleMouseDownOnLabelContainer
         }
       }, [children]);
     },
@@ -3259,7 +3259,7 @@ var Option = {
           title: instance.retryTitle
         },
         on: {
-          "mousedown": this.handleMouseDownOnRetry
+          "touchstart": this.handleMouseDownOnRetry
         }
       }, [instance.retryText])]);
     },
@@ -3392,7 +3392,7 @@ var directionMap = {
         ref: "menu",
         "class": "vue-treeselect__menu",
         on: {
-          "mousedown": instance.handleMouseDown
+          "touchstart": instance.handleMouseDown
         },
         style: this.menuStyle
       }, [this.renderBeforeList(), instance.async ? this.renderAsyncSearchMenuInner() : instance.localSearch.active ? this.renderLocalSearchMenuInner() : this.renderNormalMenuInner(), this.renderAfterList()]);
