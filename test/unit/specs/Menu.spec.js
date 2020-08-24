@@ -22,7 +22,7 @@ describe('Menu', () => {
     await vm.$nextTick()
 
     const event = document.createEvent('event')
-    event.initEvent('mousedown', true, true)
+    event.initEvent('touchstart', true, true)
     document.body.dispatchEvent(event)
     expect(vm.trigger.isFocused).toBe(false)
     expect(vm.menu.isOpen).toBe(false)

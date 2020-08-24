@@ -30,7 +30,7 @@ function createKeyObject(keyCode) {
 
 export function leftClick(wrapper) {
   const MOUSE_BUTTON_LEFT = { button: 0 }
-  wrapper.trigger('mousedown', MOUSE_BUTTON_LEFT)
+  wrapper.trigger('touchstart', MOUSE_BUTTON_LEFT)
 }
 
 export function pressBackspaceKey(wrapper) {

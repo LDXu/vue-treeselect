@@ -36,7 +36,7 @@ describe('Utils', () => {
 
       it('should invoke the function when left button has been clicked', () => {
         const eventObj = {
-          type: 'mousedown',
+          type: 'touchstart',
           button: 0,
         }
         onLeftClick(spy)(eventObj)
@@ -54,7 +54,7 @@ describe('Utils', () => {
 
       it('should not invoke the function if clicked with buttons other than left button', () => {
         const eventObj = {
-          type: 'mousedown',
+          type: 'touchstart',
           button: 1,
         }
         onLeftClick(spy)(eventObj)
@@ -63,7 +63,7 @@ describe('Utils', () => {
 
       it('should pass extra args', () => {
         const eventObj = {
-          type: 'mousedown',
+          type: 'touchstart',
           button: 0,
         }
         const extraArg = {}

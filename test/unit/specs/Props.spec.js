@@ -396,7 +396,7 @@ describe('Props', () => {
       expect(label.textContent.trim()).toBe('a')
 
       const event = document.createEvent('Event')
-      event.initEvent('mousedown', true, true)
+      event.initEvent('touchstart', true, true)
       event.button = 0
       label.dispatchEvent(event)
       expect(vm.internalValue).toEqual([ 'a' ])

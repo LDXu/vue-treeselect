@@ -1141,9 +1141,9 @@ export default {
 
     toggleClickOutsideEvent(enabled) {
       if (enabled) {
-        document.addEventListener('mousedown', this.handleClickOutside, false)
+        document.addEventListener('touchstart', this.handleClickOutside, false)
       } else {
-        document.removeEventListener('mousedown', this.handleClickOutside, false)
+        document.removeEventListener('touchstart', this.handleClickOutside, false)
       }
     },
 
